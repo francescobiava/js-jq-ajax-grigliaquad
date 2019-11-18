@@ -19,10 +19,19 @@
   border: 1px solid black;
 }
 
+.box:hover {
+  cursor: pointer;
+}
+
 .yellow {
   background-color: yellow;
 }
 
 .green {
   background-color: green;
+}
+
+.box.yellow:hover,
+.box.green:hover {
+  cursor: default;
 }
