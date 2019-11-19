@@ -14,6 +14,7 @@ function colorBox() {
       method: "GET",
       success: function(data) {
         var num = data.response;
+        target.text(num);
         if (num <= 5) {
           target.addClass('yellow');
         } else {
